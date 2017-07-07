@@ -23,9 +23,16 @@ body {
   color: $darkGray;
 }
 
+.containerHeader {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 0 10px;
+  width: 100%;
+}
+
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 940px;
   padding: 0 10px;
   width: 100%;
 }
