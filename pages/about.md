@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /about/
 ---
 
 <div class="posts">
