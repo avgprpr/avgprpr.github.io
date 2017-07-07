@@ -5,6 +5,6 @@ permalink: /about/
 ---
 
 
-  {% for post in site.categories.myPost %}
+  {% for post in site.post %}
     {{ post.title }}
   {% endfor %}
