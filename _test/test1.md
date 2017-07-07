@@ -1,6 +1,6 @@
 ---
-layout:post
-title:test1
+layout: post
+title: test1
 ---
 
 
