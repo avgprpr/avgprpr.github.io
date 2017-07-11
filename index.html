@@ -9,9 +9,8 @@ layout: default
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread">Link</a>
+        <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{id}}">Link</a>
       </div>
-      <div class="disqus-comment-count" expr:data-disqus-url="data:post.canonicalUrl">Count</div>
     </article>
   {% endfor %}
 </div>
