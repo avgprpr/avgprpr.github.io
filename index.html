@@ -10,7 +10,12 @@ layout: default
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>  
         <span class="post-date">{{ post.date | date: "%Y-%m-%d %H:%M:%S"}}</span>
       </div>
-      <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="">
+      <div>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="">
+          <span>{{ post.excerpt }}</span>
+        </a>  
+      </div>
     </article>
   {% endfor %}
 </div>
