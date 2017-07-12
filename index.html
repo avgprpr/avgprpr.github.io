@@ -7,10 +7,10 @@ layout: default
     <article class="post file">
 
       <div class="file-header">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>  
+        <span class="post-date">{{ post.date }}</span>
       </div>
-
-      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="">
     </article>
   {% endfor %}
 </div>
