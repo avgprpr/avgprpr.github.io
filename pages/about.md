@@ -9,7 +9,7 @@ permalink: /about/
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <img src="{{ site.baseurl }}/images/{{ post.image }}">
+      <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="">
     </article>
   {% endfor %}
 </div>
