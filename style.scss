@@ -56,9 +56,16 @@ body {
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
 }
-
+.post-title {
+    margin-left: 180px;
+    height: 0;
+}
 .post-date {
     font-size: small;
+}
+.image-ico {
+    width: 160px;
+    height: 100px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -273,7 +280,7 @@ nav {
 //
 
 .posts > .post {
-//  padding-bottom: 2em;
+  padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
 }
 
