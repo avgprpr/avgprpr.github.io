@@ -3942,7 +3942,7 @@ a.thumbnail:hover {
   width: 40px;
   height: 40px;
   margin-top: -20px;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 100;
   line-height: 30px;
   color: #ffffff;
@@ -3952,7 +3952,7 @@ a.thumbnail:hover {
   -webkit-border-radius: 23px;
   -moz-border-radius: 23px;
   border-radius: 23px;
-  opacity: 0.5;
+  opacity: 0.8;
   filter: alpha(opacity=50);
 }
 .carousel-control.right {
@@ -4910,7 +4910,7 @@ body {
     position: relative;
     padding-top: 60px;
     background-color: #fff;
-    background-image: url(../img/grid-18px-masked.png);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#94e4f1), to(#f9f9f9));
 	background-position:center;
     background-attachment: fixed;
 }
