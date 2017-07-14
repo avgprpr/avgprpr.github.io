@@ -2914,7 +2914,7 @@ div.gametable span.mask { display: block; position: absolute; width: 150px; heig
 				font-size: 20px;
 				font-weight: 200;
 				line-height: 1;
-				color: #F5F5F5;
+				color: #ffffff;
 }
 .navbar .navbar-text {
   margin-bottom: 0;
@@ -3046,7 +3046,7 @@ div.gametable span.mask { display: block; position: absolute; width: 150px; heig
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
 				color: #ffffff;
 				text-decoration: none;
-				background-color: #092E20;
+				background-color: #3ea7b8;
 }
 .navbar .divider-vertical {
   height: 40px;
