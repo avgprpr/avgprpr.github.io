@@ -121,6 +121,9 @@ textarea {
   content: "";
 }
 .imgDivParent {
+  position: relative;
+}
+.imgDivText {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -128,10 +131,6 @@ textarea {
   width: 100%;
   opacity: 0.6;
   text-align: center;
-}
-.imgDivText {
-  position: absolute;
-  bottom: 0;
 }
 .clearfix:after {
   clear: both;
