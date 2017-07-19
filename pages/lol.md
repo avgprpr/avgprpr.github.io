@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about/
+permalink: /lol/
 ---
 
 <div class="posts">
