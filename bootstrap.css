@@ -120,6 +120,19 @@ textarea {
   display: table;
   content: "";
 }
+.imgDivParent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  width: 100%;
+  opacity: 0.6;
+  text-align: center;
+}
+.imgDivText {
+  position: absolute;
+  bottom: 0;
+}
 .clearfix:after {
   clear: both;
 }
