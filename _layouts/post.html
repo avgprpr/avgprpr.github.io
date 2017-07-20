@@ -29,11 +29,11 @@ comments: true
               {% assign prev_post = post.url %}
           {% endif %}
       {% endfor %}
-      {% if next_post %}
-          <a href="{{ next_post }}">下一章</a> <br>
-      {% endif %}
       {% if prev_post %}
-          <a href="{{ prev_post }}">上一章</a> <br>
+          <a href="{{ prev_post }}">上一章</a>
+      {% endif %}
+      {% if next_post %}
+          <a href="{{ next_post }}">下一章</a>
       {% endif %}
     </div>
 
