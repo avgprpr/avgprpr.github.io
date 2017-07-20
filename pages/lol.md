@@ -1,11 +1,9 @@
 ---
 layout: page
 permalink: /lol/
+title: 英雄联盟之二懂搞事
 ---
 ![](../images/xiaoshuo/xs1.jpg )   
-<div class="center">
-  <h1>英雄联盟之二懂搞事</h1>
-</div>
 <div class="posts">
   {% for post in site.categories.lol %}
     <article class="post">
