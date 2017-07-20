@@ -15,11 +15,11 @@ comments: true
   </div>
   
   <div class="PageNavigation">
-    {% if page.previous.url %}
-    « {{page.previous.title}}
+    {% if page.previous.url and page.previous.categories contains "lol" %}
+    <a class="prev" href="{{page.previous.url}}">« {{page.previous.title}}</a>
     {% endif %}
-    {% if page.next.url %}
-    {{page.next.title}} »
+    {% if page.next.url and page.next.categories contains "lol" %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} »</a>
     {% endif %}
   </div>
 
