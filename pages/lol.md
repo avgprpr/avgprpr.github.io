@@ -8,7 +8,6 @@ image: ../images/xiaoshuo/xs1.jpg
   {% for post in site.categories.lol %}
     <article class="post">
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      <span class="post-date">{{ post.date | date: "%Y-%m-%d"}}</span>
     </article>
   {% endfor %}
 </div>
