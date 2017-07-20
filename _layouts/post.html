@@ -14,14 +14,28 @@ comments: true
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
   
-  <div class="PageNavigation">
-    {% if page.previous.url and page.previous.categories == 'lol' %}
-    « {{page.previous.title}}
-    {% endif %}
-    {% if page.next.url and page.next.categories == 'lol' %}
-    {{page.next.title}} »
-    {% endif %}
-  </div>
+   <div class="PageNavigation">
+      {% for post in site.categories.[page.category] %}
+          {% if post.url == page.url %}
+              {% assign post_index0 = forloop.index0 %}
+              {% assign post_index1 = forloop.index %}
+          {% endif %}
+      {% endfor %}
+      {% for post in site.categories.[page.category]  %}
+          {% if post_index0 == forloop.index %}
+              {% assign next_post = post.url %}
+          {% endif %}
+          {% if post_index1 == forloop.index0 %}
+              {% assign prev_post = post.url %}
+          {% endif %}
+      {% endfor %}
+      {% if next_post %}
+          <a href="{{ next_post }}">Next Post</a> <br>
+      {% endif %}
+      {% if prev_post %}
+          <a href="{{ prev_post }}">Previous Post</a> <br>
+      {% endif %}
+    </div>
 
   <div id="disqus_thread"></div>
   <script>
