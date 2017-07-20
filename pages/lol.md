@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /lol/
-title: 英雄联盟之二懂搞事
+title: 英雄联盟外传--拯救瓦洛兰
 image: ../images/xiaoshuo/xs1.jpg
 ---
 <div class="posts">
