@@ -2,9 +2,8 @@
 layout: page
 permalink: /lol/
 ---
-
+![](../images/xiaoshuo/xs1.jpg )   
 <div class="posts">
-  ![](../images/xiaoshuo/xs1.jpg )   
   {% for post in site.categories.lol %}
     <article class="post">
 
