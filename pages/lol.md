@@ -4,6 +4,7 @@ permalink: /lol/
 ---
 
 <div class="posts">
+  ![](../images/xiaoshuo/xs1.jpg )  
   {% for post in site.categories.lol %}
     <article class="post">
 
