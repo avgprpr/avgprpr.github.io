@@ -13,6 +13,12 @@ comments: true
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
+  
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">« {{page.previous.title}}</a>
+  {% else %}
+    <a class="prev"></a>
+  {% endif %}
 
   <div id="disqus_thread"></div>
   <script>
