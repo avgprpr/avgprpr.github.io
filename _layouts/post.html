@@ -15,13 +15,13 @@ comments: true
   </div>
   
   <div class="PageNavigation">
-    {% for post in site.categories.lol %}
+    {% for post in page.categories %}
         {% if post.url == page.url %}
             {% assign post_index0 = forloop.index0 %}
             {% assign post_index1 = forloop.index %}
         {% endif %}
     {% endfor %}
-    {% for post in site.categories.lol %}
+    {% for post in page.categories %}
         {% if post_index0 == forloop.index %}
             {% assign next_post = post.url %}
         {% endif %}
