@@ -2,7 +2,8 @@
 layout: page
 permalink: /lol/
 title: 英雄联盟外传ーー拯救瓦洛兰
-description: 作者:左边牙齿疼
+author: 作者:左边牙齿疼
+description: 英雄联盟20年后的故事
 image: ../images/xiaoshuo/xs1.jpg
 ---
 <div class="posts">
