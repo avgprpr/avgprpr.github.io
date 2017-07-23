@@ -9,7 +9,7 @@ image: ../images/manga/imoto/001.jpg
 <div class="posts">
   {% for post in site.categories.imoto %}
     <article class="post">
-      <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+      <p><a href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{ post.title }}</a></p>
     </article>
   {% endfor %}
 </div>
