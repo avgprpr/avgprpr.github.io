@@ -33,15 +33,21 @@ layout: home
    	 <h2>小说</h2>
     </div>
 </div>
-<div class="row">
-    <div class="span4 imgDivParent">
-            <a href="/lol/">
-                    <img src="/images/xiaoshuo/xs1.jpg" alt="">
-                    <div class="imgDivText">
-                            <span>英雄联盟外传--拯救瓦洛兰</span>
-                    </div>
-            </a>
-     </div>
+<div class="swiper-container row">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="/lol/"><img src="/images/xiaoshuo/xs1.jpg" alt="">英雄联盟外传--拯救瓦洛兰</a></div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+            <div class="swiper-slide">Slide 10</div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
 </div>
 <hr/>
 <div class="row">
@@ -77,3 +83,12 @@ layout: home
             </div>
      </div>
 </div>
+<!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 30
+    });
+</script>
