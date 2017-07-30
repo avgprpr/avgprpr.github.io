@@ -1,6 +1,8 @@
 
 <html>
 <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    {% include meta.html %}
     <link rel="stylesheet" href="../css/swiper-3.4.2.min.css">
     <style type="text/css">
 	.swiper-slide {
