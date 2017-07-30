@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /imoto/
-title: 我的绫濑天使这么可爱2
-author: 日文原版地址:http://d-upp.com/books/12862/1.html
-description: 我的妹妹不可能这么可爱 同人漫画
-image: ../images/manga/imoto/001.jpg
+permalink: /kanojo150kg/
+title: 150公斤的女友
+author: 作者：井上小春  翻译：噗啦酱
+description: 有趣的搞笑短篇
+image: ../images/manga/kanojo150kg/2.jpg
 ---
 <div class="posts">
   {% for post in site.categories.imoto %}
